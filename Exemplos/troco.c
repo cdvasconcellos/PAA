@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 100
+#define MAX 10000
 /*******************************************************************************************
 Exemplo programacao dinamica - Problema do troco - Construção da tabela.                   *
 x - vetor de moedas;                                                                       *
