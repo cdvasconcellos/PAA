@@ -28,7 +28,8 @@ void countingSort(unsigned int *a, unsigned int *b, unsigned int n)
    {
       b[c[a[j]]-1] = a[j];
       c[a[j]] = c[a[j]] - 1;
-   }   
+   }  
+   free(c);
 }
 
 int main()
